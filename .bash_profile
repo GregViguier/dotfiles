@@ -1,6 +1,4 @@
 # ENVIRONNEMENT
-export http_proxy="http://proxy:8080"
-export https_proxy="http://proxy:8080"
 export JAVA_HOME=/usr/lib/jvm/java-8-oracle/
 
 export GIT_PS1_SHOWDIRTYSTATE=1 GIT_PS1_SHOWSTASHSTATE=1 GIT_PS1_SHOWUNTRACKEDFILES=1
@@ -13,3 +11,15 @@ export GIT_MERGE_AUTOEDIT=no
 
 # So people can use 'l' as well
 function l() { ls -lA ""; }
+
+#source ~/.bash_profile
+# PATH=$(/usr/bin/printenv PATH | /usr/bin/perl -ne 'print join(":", grep { !/\/mnt\/[a-z]/ } split(/:/));')
+# Set Proxy
+function setproxy() {
+    export {http,https,ftp}_proxy="http://proxy:8080"
+}
+
+# Unset Proxy
+function unsetproxy() {
+    unset {http,https,ftp}_proxy
+}
