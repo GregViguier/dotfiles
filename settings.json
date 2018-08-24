@@ -1,0 +1,14 @@
+// Placez vos paramètres dans ce fichier pour remplacer les paramètres par défaut
+{
+    "vsicons.projectDetection.autoReload": true,
+    "eslint.autoFixOnSave": false,
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "vscode-icons",
+    "files.eol": "\n",
+    "maven.executable.path": "D:\\Tools\\apache-maven-3.3.9\\bin\\mvn",
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.formatOnSave": true,
+    "workbench.editor.enablePreview": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
+    "explorer.confirmDragAndDrop": false
+}
